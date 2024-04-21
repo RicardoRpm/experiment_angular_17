@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, ActivatedRoute, RouterOutlet, ParamMap } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Router, ActivatedRoute, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-login',
