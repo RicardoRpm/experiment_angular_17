@@ -1,16 +1,27 @@
-<div class="gap-4">
-    <h1 class="text-3xl font-bold text-center underline">
-        Login
-    </h1>
-    
-    <div class="flex justify-center">
-        <button class="rounded-lg 
-        text-white 
-        h-10 
-        min-w-[8rem] 
-        border-4 
-        border-red-900/100 
-        bg-green-800"
-        onclick="redirectToHomePage()">Home Page</button>
+<div class="grid sm:grid-cols-2 md:grid-cols-2 xs:grid-cols-1 h-screen ">
+    <div class="bg-red-800 visible xs:invisible xs:hidden">
+        Ricardo Miguel
+    </div>
+
+    <div class="bg-blue-800">
+        <h1 class="mb-3">Wellcome Back</h1>
+        <input class="block mb-3" placeholder=""/>
+        <input class="block mb-3" placeholder=""/>
+        <input class="block mb-3" placeholder=""/>
+        <input class="block mb-3" placeholder=""/>
+
+        <button>Create Account</button>
+        
+        <span class="flex">
+            <hr>
+            ou
+            <hr>
+        </span>
+
+        <span>Already have an account? <span class="text-red-700">Sign in</span></span>
+
+        <button class="p-2 bg-black text-white w-full mb-2">Continue with Google</button>
+        <button class="p-2 bg-black text-white w-full mb-2">Continue with Apple</button>
+        <button class="p-2 bg-black text-white w-full mb-2">Continue with Twitter</button>
     </div>
 </div>

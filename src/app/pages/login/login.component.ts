@@ -5,8 +5,7 @@ import { Router, ActivatedRoute, RouterOutlet } from '@angular/router';
   selector: 'app-login',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+  templateUrl: './login.component.html'
 })
 
 export class LoginComponent {
